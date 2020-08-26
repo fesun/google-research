@@ -40,8 +40,8 @@ cc_library(
         "@com_google_absl//absl/base",
         "@com_google_absl//absl/flags:flag",
         "@com_google_absl//absl/memory",
-        "@local_config_tf//:libtensorflow_framework",
-        "@local_config_tf//:tf_header_lib",
+        "@org_tensorflow//tensorflow/core:tensorflow",
+        
     ],
 )
 
@@ -60,8 +60,8 @@ cc_library(
         "@com_google_absl//absl/base",
         "@com_google_absl//absl/flags:flag",
         "@com_google_absl//absl/synchronization",
-        "@local_config_tf//:libtensorflow_framework",
-        "@local_config_tf//:tf_header_lib",
+        "@org_tensorflow//tensorflow/core:tensorflow",
+        
     ],
 )
 
